@@ -1,0 +1,46 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/BP_coin.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/BP_coin_2.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Blueprints/Interactables/Lever_BP.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_AnimBP.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/BlockGame/PlayerCharacter/BlockCharacter_AnimBP.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/BaseWorld.umap",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BaseWorld.umap",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_coin.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_endGoal.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_SpawnPursuer.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Blueprints/GameFramework/BP_LearningKitGameMode.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_LearningKit_PlayerCharacter.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BPI_LearningKit_PlayerInteractions.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/WBP_Health.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/WBP_Score.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_AIController.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_AICharacter.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/ControlRig/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_SpawnCoin.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/WBP_Restart.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_LearningKitGameMode.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_Health.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BP_spawnhealth.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/BB_Pursuer.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/ABP_Manny.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/Mannequins/Animations/ABP_Manny.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/MP2/SK_Mannequin.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/Mannequins/Meshes/SK_Mannequin.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/BP_endGoal.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/BP_LearningKit_PlayerCharacter.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/BPI_LearningKit_PlayerInteractions.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/BP_SpawnPursuer.uasset",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Maps/BaseWorld.umap",
+				"C:/Users/Taylor/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Blueprints/PlayerCharacter/BPI_LearningKit_PlayerInteractions.uasset"
+			]
+		}
+	]
+}
