@@ -3653,3 +3653,620 @@ Make sure 'BP_MortarProjectile_C' has been compiled for  Get CapsuleComponent
 [2023.10.09-23.54.51:108][214]AssetCheck: New page: Asset Save: MP2
 [2023.10.09-23.54.51:108][214]LogContentValidation: Display: Validating /Script/Engine.World /Game/MP2/MP2.MP2
 [2023.10.09-23.54.51:767][238]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/MP2/MP2.MP2:PersistentLevel.RecastNavMesh-Default).
+[2023.10.10-00.01.56:831][694]LogViewport: Scene viewport resized to 1959x815, mode Windowed.
+[2023.10.10-00.01.58:933][921]LogViewport: Scene viewport resized to 1959x1254, mode Windowed.
+[2023.10.10-00.02.01:134][164]LogViewport: Scene viewport resized to 2552x1254, mode Windowed.
+[2023.10.10-00.02.18:872][740]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=DELL S2721DS (NVIDIA High Definition Audio), InstanceID=1
+[2023.10.10-00.02.19:034][740]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=39984
+[2023.10.10-00.02.19:369][741]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a1330d40-7e62-44a8-b74c-3006b2d896e9}, Name=DELL S2721DS (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=14.28
+[2023.10.10-00.02.19:369][741]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.10-00.02.19:370][741]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.10-00.02.31:945][779]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Soundcore Life Q30), InstanceID=1
+[2023.10.10-00.02.32:038][779]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=39984
+[2023.10.10-00.02.32:372][780]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{6b59a8cc-fb82-45bb-aab2-4a4e3802b93e}, Name=Headphones (Soundcore Life Q30)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=15.39
+[2023.10.10-00.02.32:372][780]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.10-00.02.32:373][780]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.10-00.05.20:467][229]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.10-00.05.20:473][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.10-00.05.20:473][229]PIE: New page: PIE session: MP2 (Oct 9, 2023, 2:05:20 PM)
+[2023.10.10-00.05.20:507][229]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.05.20:519][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013235s)
+[2023.10.10-00.05.20:519][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.013269s)
+[2023.10.10-00.05.20:519][229]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.05.20:520][229]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.05.20:520][229]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2023.10.10-00.05.20:544][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.10.10-00.05.20:550][229]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.10.10-00.05.20:550][229]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.10-00.05.20:550][229]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.10-00.05.20:550][229]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.10-00.05.20:550][229]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.10-00.05.20:550][229]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.10-00.05.20:550][229]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.10-00.05.20:550][229]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.10-00.05.20:550][229]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.10-00.05.20:550][229]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.10-00.05.20:550][229]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.10-00.05.20:550][229]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.10-00.05.20:552][229]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.10-00.05.20:568][229]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Life Q30)
+[2023.10.10-00.05.20:569][229]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.10-00.05.20:569][229]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.10-00.05.20:569][229]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.10-00.05.20:569][229]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.10.10-00.05.20:569][229]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.10.10-00.05.20:570][229]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.10.10-00.05.20:570][229]LogInit: FAudioDevice initialized.
+[2023.10.10-00.05.20:570][229]LogAudio: Display: Audio Device (ID: 28) registered with world 'MP2'.
+[2023.10.10-00.05.20:570][229]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.10.10-00.05.20:573][229]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.05.20:576][229]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.05.20
+[2023.10.10-00.05.22:148][229]LogWorld: Bringing up level for play took: 1.574982
+[2023.10.10-00.05.22:150][229]LogOnline: OSS: Created online subsystem instance for: :Context_91
+[2023.10.10-00.05.22:159][229]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.05.22:170][229]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.05.22:173][229]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.05.22:199][229]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.05.22:206][229]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.10-00.05.22:207][229]PIE: Server logged in
+[2023.10.10-00.05.22:208][229]PIE: Play in editor total start time 1.735 seconds.
+[2023.10.10-00.06.45:011][363]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(917)]!
+[2023.10.10-00.06.45:011][363]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.10-00.06.45:011][363]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.10-00.06.52:125][111]LogAssetRegistry: Warning: GetFirstPackageByName('BaseWorld') is returning '/Game/BaseWorld', but it also found '/Game/MP2/BaseWorld'.
+[2023.10.10-00.06.52:126][111]LogAssetRegistry: Warning: GetFirstPackageByName('BaseWorld') is returning '/Game/BaseWorld', but it also found '/Game/MP2/BaseWorld'.
+[2023.10.10-00.06.52:126][111]LogNet: Browse: /Game/BaseWorld
+[2023.10.10-00.06.52:126][111]LogLoad: LoadMap: /Game/BaseWorld
+[2023.10.10-00.06.52:126][111]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.06.52:127][111]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.06.52:131][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.06.52:181][111]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-00.06.52:188][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.10.10-00.06.52:194][111]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.06.52:207][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012811s)
+[2023.10.10-00.06.52:207][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.012843s)
+[2023.10.10-00.06.52:207][111]LogAudio: Display: Audio Device (ID: 28) registered with world 'MP2'.
+[2023.10.10-00.06.52:207][111]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.06.52:207][111]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.06.52:208][111]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2023.10.10-00.06.52:208][111]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.06.52:211][111]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.06.52
+[2023.10.10-00.06.53:828][111]LogWorld: Bringing up level for play took: 1.619721
+[2023.10.10-00.06.53:836][111]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.06.53:845][111]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.06.53:849][111]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.06.53:877][111]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.06.53:884][111]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.10-00.06.53:884][111]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.10-00.06.53:885][111]LogLoad: Took 1.758888 seconds to LoadMap(/Game/MP2/UEDPIE_0_MP2)
+[2023.10.10-00.07.41:337][175]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(917)]!
+[2023.10.10-00.07.41:337][175]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.10-00.07.41:337][175]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.10-00.07.42:438][283]LogAssetRegistry: Warning: GetFirstPackageByName('BaseWorld') is returning '/Game/BaseWorld', but it also found '/Game/MP2/BaseWorld'.
+[2023.10.10-00.07.42:439][283]LogAssetRegistry: Warning: GetFirstPackageByName('BaseWorld') is returning '/Game/BaseWorld', but it also found '/Game/MP2/BaseWorld'.
+[2023.10.10-00.07.42:439][283]LogNet: Browse: /Game/BaseWorld
+[2023.10.10-00.07.42:439][283]LogLoad: LoadMap: /Game/BaseWorld
+[2023.10.10-00.07.42:439][283]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.07.42:439][283]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.07.42:442][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.07.42:501][283]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-00.07.42:509][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.10.10-00.07.42:514][283]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.07.42:527][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013100s)
+[2023.10.10-00.07.42:527][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.013139s)
+[2023.10.10-00.07.42:527][283]LogAudio: Display: Audio Device (ID: 28) registered with world 'MP2'.
+[2023.10.10-00.07.42:527][283]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.07.42:527][283]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.07.42:527][283]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2023.10.10-00.07.42:527][283]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.07.42:529][283]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.07.42
+[2023.10.10-00.07.44:170][283]LogWorld: Bringing up level for play took: 1.641346
+[2023.10.10-00.07.44:177][283]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.07.44:187][283]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.07.44:190][283]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.07.44:220][283]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.07.44:226][283]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.10-00.07.44:226][283]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.10-00.07.44:227][283]LogLoad: Took 1.788054 seconds to LoadMap(/Game/MP2/UEDPIE_0_MP2)
+[2023.10.10-00.07.53:729][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.07.53:729][ 77]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.07.53:729][ 77]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.07.53:731][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.07.53:734][ 77]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.10-00.07.53:740][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.07.53:763][ 77]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-00.07.53:763][ 77]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.10.10-00.07.53:764][ 77]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.10.10-00.07.53:767][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.07.53:773][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.10.10-00.07.53:799][ 78]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2023.10.10-00.07.55:650][272]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.10-00.07.55:656][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.10-00.07.55:656][272]PIE: New page: PIE session: MP2 (Oct 9, 2023, 2:07:55 PM)
+[2023.10.10-00.07.55:685][272]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.07.55:699][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013179s)
+[2023.10.10-00.07.55:699][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.013209s)
+[2023.10.10-00.07.55:699][272]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.07.55:699][272]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.07.55:699][272]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2023.10.10-00.07.55:719][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.10.10-00.07.55:720][272]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.10.10-00.07.55:720][272]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.10-00.07.55:720][272]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.10-00.07.55:720][272]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.10-00.07.55:720][272]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.10-00.07.55:720][272]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.10-00.07.55:720][272]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.10-00.07.55:720][272]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.10-00.07.55:720][272]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.10-00.07.55:721][272]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.10-00.07.55:721][272]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.10-00.07.55:721][272]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.10-00.07.55:722][272]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.10-00.07.55:740][272]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Life Q30)
+[2023.10.10-00.07.55:740][272]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.10-00.07.55:740][272]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.10-00.07.55:740][272]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.10-00.07.55:740][272]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.10.10-00.07.55:740][272]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.10.10-00.07.55:742][272]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.10.10-00.07.55:742][272]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.10.10-00.07.55:742][272]LogInit: FAudioDevice initialized.
+[2023.10.10-00.07.55:742][272]LogAudio: Display: Audio Device (ID: 29) registered with world 'MP2'.
+[2023.10.10-00.07.55:744][272]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.07.55:747][272]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.07.55
+[2023.10.10-00.07.57:426][272]LogWorld: Bringing up level for play took: 1.681939
+[2023.10.10-00.07.57:428][272]LogOnline: OSS: Created online subsystem instance for: :Context_92
+[2023.10.10-00.07.57:436][272]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.07.57:445][272]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.07.57:449][272]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.07.57:475][272]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.07.57:483][272]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.10-00.07.57:484][272]PIE: Server logged in
+[2023.10.10-00.07.57:484][272]PIE: Play in editor total start time 1.829 seconds.
+[2023.10.10-00.08.08:309][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.08.08:309][187]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.08.08:309][187]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.08.08:311][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.08.08:314][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.10-00.08.08:320][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.08.08:344][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.08.08:344][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.10.10-00.08.08:345][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.10.10-00.08.08:355][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.10.10-00.08.08:381][188]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2023.10.10-00.08.09:781][319]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.10-00.08.09:787][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.10-00.08.09:787][319]PIE: New page: PIE session: MP2 (Oct 9, 2023, 2:08:09 PM)
+[2023.10.10-00.08.09:787][319]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.08.09:800][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013303s)
+[2023.10.10-00.08.09:800][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.013328s)
+[2023.10.10-00.08.09:800][319]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.08.09:800][319]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.08.09:801][319]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2023.10.10-00.08.09:821][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.10.10-00.08.09:823][319]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.10.10-00.08.09:823][319]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.10-00.08.09:823][319]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.10-00.08.09:823][319]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.10-00.08.09:823][319]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.10-00.08.09:823][319]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.10-00.08.09:823][319]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.10-00.08.09:823][319]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.10-00.08.09:823][319]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.10-00.08.09:823][319]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.10-00.08.09:823][319]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.10-00.08.09:823][319]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.10-00.08.09:825][319]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.10-00.08.09:841][319]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Life Q30)
+[2023.10.10-00.08.09:842][319]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.10-00.08.09:842][319]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.10-00.08.09:842][319]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.10-00.08.09:842][319]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.10.10-00.08.09:842][319]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2023.10.10-00.08.09:844][319]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.10.10-00.08.09:844][319]LogInit: FAudioDevice initialized.
+[2023.10.10-00.08.09:844][319]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.10.10-00.08.09:844][319]LogAudio: Display: Audio Device (ID: 30) registered with world 'MP2'.
+[2023.10.10-00.08.09:846][319]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.08.09:849][319]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.08.09
+[2023.10.10-00.08.11:481][319]LogWorld: Bringing up level for play took: 1.635323
+[2023.10.10-00.08.11:483][319]LogOnline: OSS: Created online subsystem instance for: :Context_93
+[2023.10.10-00.08.11:491][319]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.08.11:502][319]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.08.11:504][319]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.08.11:531][319]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.08.11:538][319]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.10-00.08.11:539][319]PIE: Server logged in
+[2023.10.10-00.08.11:540][319]PIE: Play in editor total start time 1.753 seconds.
+[2023.10.10-00.08.13:769][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.08.13:769][494]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.08.13:769][494]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.08.13:770][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.08.13:774][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.10-00.08.13:778][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.08.13:800][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.08.13:801][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.10.10-00.08.13:802][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.10.10-00.08.13:812][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.10.10-00.08.13:837][495]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2023.10.10-00.08.18:896][632]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.10-00.08.18:901][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.10-00.08.18:901][632]PIE: New page: PIE session: MP2 (Oct 9, 2023, 2:08:18 PM)
+[2023.10.10-00.08.18:902][632]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.08.18:914][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012713s)
+[2023.10.10-00.08.18:914][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.012735s)
+[2023.10.10-00.08.18:914][632]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.08.18:915][632]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.08.18:915][632]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2023.10.10-00.08.18:935][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.10.10-00.08.18:937][632]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2023.10.10-00.08.18:937][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.10-00.08.18:937][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.10-00.08.18:937][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.10-00.08.18:937][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.10-00.08.18:937][632]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.10-00.08.18:937][632]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.10-00.08.18:937][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.10-00.08.18:937][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.10-00.08.18:937][632]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.10-00.08.18:937][632]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.10-00.08.18:937][632]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.10-00.08.18:939][632]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.10-00.08.18:956][632]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Life Q30)
+[2023.10.10-00.08.18:956][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.10-00.08.18:956][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.10-00.08.18:956][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.10-00.08.18:956][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2023.10.10-00.08.18:956][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2023.10.10-00.08.18:958][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2023.10.10-00.08.18:958][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2023.10.10-00.08.18:958][632]LogInit: FAudioDevice initialized.
+[2023.10.10-00.08.18:958][632]LogAudio: Display: Audio Device (ID: 31) registered with world 'MP2'.
+[2023.10.10-00.08.18:960][632]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.08.18:964][632]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.08.18
+[2023.10.10-00.08.20:589][632]LogWorld: Bringing up level for play took: 1.627759
+[2023.10.10-00.08.20:590][632]LogOnline: OSS: Created online subsystem instance for: :Context_94
+[2023.10.10-00.08.20:598][632]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.08.20:608][632]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.08.20:611][632]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.08.20:637][632]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.08.20:644][632]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.10-00.08.20:645][632]PIE: Server logged in
+[2023.10.10-00.08.20:646][632]PIE: Play in editor total start time 1.744 seconds.
+[2023.10.10-00.09.52:212][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.09.52:212][552]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.09.52:212][552]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.09.52:216][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.09.52:220][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.10-00.09.52:226][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.09.52:247][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.09.52:248][552]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.10.10-00.09.52:249][552]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.10.10-00.09.52:258][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.10.10-00.09.52:331][554]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2023.10.10-00.10.02:043][708]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.10-00.10.02:049][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.10-00.10.02:049][708]PIE: New page: PIE session: MP2 (Oct 9, 2023, 2:10:02 PM)
+[2023.10.10-00.10.02:050][708]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.10.02:062][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012790s)
+[2023.10.10-00.10.02:062][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.012814s)
+[2023.10.10-00.10.02:062][708]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.10.02:063][708]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.10.02:063][708]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2023.10.10-00.10.02:083][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.10.10-00.10.02:085][708]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2023.10.10-00.10.02:085][708]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.10-00.10.02:085][708]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.10-00.10.02:085][708]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.10-00.10.02:085][708]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.10-00.10.02:085][708]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.10-00.10.02:085][708]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.10-00.10.02:085][708]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.10-00.10.02:085][708]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.10-00.10.02:085][708]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.10-00.10.02:085][708]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.10-00.10.02:085][708]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.10-00.10.02:087][708]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.10-00.10.02:105][708]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Life Q30)
+[2023.10.10-00.10.02:105][708]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.10-00.10.02:105][708]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.10-00.10.02:105][708]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.10-00.10.02:106][708]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2023.10.10-00.10.02:106][708]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2023.10.10-00.10.02:107][708]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2023.10.10-00.10.02:107][708]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2023.10.10-00.10.02:107][708]LogInit: FAudioDevice initialized.
+[2023.10.10-00.10.02:107][708]LogAudio: Display: Audio Device (ID: 32) registered with world 'MP2'.
+[2023.10.10-00.10.02:111][708]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.10.02:114][708]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.10.02
+[2023.10.10-00.10.03:760][708]LogWorld: Bringing up level for play took: 1.649147
+[2023.10.10-00.10.03:763][708]LogOnline: OSS: Created online subsystem instance for: :Context_95
+[2023.10.10-00.10.03:771][708]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.10.03:781][708]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.10.03:785][708]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.10.03:811][708]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.10.03:819][708]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.10-00.10.03:820][708]PIE: Server logged in
+[2023.10.10-00.10.03:820][708]PIE: Play in editor total start time 1.771 seconds.
+[2023.10.10-00.12.43:509][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.12.43:509][501]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.12.43:509][501]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.12.43:515][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.12.43:521][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.10-00.12.43:526][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.12.43:550][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.12.43:552][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.10.10-00.12.43:553][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.10.10-00.12.43:561][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.10.10-00.12.43:592][502]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2023.10.10-00.12.54:654][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.10-00.12.54:706][859]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.12.54:707][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen.ParticleSystemComponent0
+[2023.10.10-00.12.54:707][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft3.ParticleSystemComponent0
+[2023.10.10-00.12.54:707][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen2.ParticleSystemComponent0
+[2023.10.10-00.12.54:707][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft4.ParticleSystemComponent0
+[2023.10.10-00.12.54:707][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft5.ParticleSystemComponent0
+[2023.10.10-00.12.54:707][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft6.ParticleSystemComponent0
+[2023.10.10-00.12.54:707][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen3.ParticleSystemComponent0
+[2023.10.10-00.12.54:727][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MP2/MP2" FILE="../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/MP2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.10-00.12.54:747][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.10.10-00.12.54:784][859]LogSavePackage: Moving output files for package: /Game/MP2/MP2
+[2023.10.10-00.12.54:785][859]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Saved/MP2124B32A44E79B3C7F7D63780B2CB5B6B.tmp' to '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/MP2.umap'
+[2023.10.10-00.12.54:796][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen.ParticleSystemComponent0
+[2023.10.10-00.12.54:796][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft3.ParticleSystemComponent0
+[2023.10.10-00.12.54:796][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen2.ParticleSystemComponent0
+[2023.10.10-00.12.54:796][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft4.ParticleSystemComponent0
+[2023.10.10-00.12.54:796][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft5.ParticleSystemComponent0
+[2023.10.10-00.12.54:796][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft6.ParticleSystemComponent0
+[2023.10.10-00.12.54:797][859]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen3.ParticleSystemComponent0
+[2023.10.10-00.12.54:811][859]LogFileHelpers: Saving map 'MP2' took 0.105
+[2023.10.10-00.12.54:821][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 4.48 sec)
+[2023.10.10-00.12.54:828][859]AssetCheck: New page: Asset Save: MP2
+[2023.10.10-00.12.54:828][859]LogContentValidation: Display: Validating /Script/Engine.World /Game/MP2/MP2.MP2
+[2023.10.10-00.12.55:598][883]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/MP2/MP2.MP2:PersistentLevel.RecastNavMesh-Default).
+[2023.10.10-00.12.59:802][235]LogViewport: Scene viewport resized to 2552x815, mode Windowed.
+[2023.10.10-00.13.04:547][617]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MP2/BP_AICharacter.BP_AICharacter
+[2023.10.10-00.13.04:547][617]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.13.22:227][720]BlueprintLog: New page: Compile BP_AICharacter
+[2023.10.10-00.13.22:334][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.10.10-00.13.22:889][756]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.10-00.13.22:980][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MP2/BP_AICharacter" FILE="../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/BP_AICharacter.uasset" SILENT=true
+[2023.10.10-00.13.22:992][756]LogSavePackage: Moving output files for package: /Game/MP2/BP_AICharacter
+[2023.10.10-00.13.22:993][756]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Saved/BP_AICharacter00633ED64B64E292AB68B8BF563B42F2.tmp' to '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/BP_AICharacter.uasset'
+[2023.10.10-00.13.22:999][756]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 4.59 sec)
+[2023.10.10-00.13.23:006][756]AssetCheck: New page: Asset Save: BP_AICharacter
+[2023.10.10-00.13.23:007][756]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MP2/BP_AICharacter.BP_AICharacter
+[2023.10.10-00.13.26:390][ 58]LogSlate: Window 'BP_AICharacter' being destroyed
+[2023.10.10-00.13.26:401][ 58]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.13.26:401][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.13.33:781][780]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MP2/BP_AICharacter.BP_AICharacter
+[2023.10.10-00.13.33:781][780]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.14.15:057][389]BlueprintLog: New page: Compile BP_AICharacter
+[2023.10.10-00.14.15:168][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.10.10-00.14.16:179][469]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.10-00.14.16:255][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MP2/BP_AICharacter" FILE="../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/BP_AICharacter.uasset" SILENT=true
+[2023.10.10-00.14.16:266][469]LogSavePackage: Moving output files for package: /Game/MP2/BP_AICharacter
+[2023.10.10-00.14.16:267][469]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Saved/BP_AICharacter599D95CA41D74393C52F80B0039FCA9A.tmp' to '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/BP_AICharacter.uasset'
+[2023.10.10-00.14.16:272][469]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 4.68 sec)
+[2023.10.10-00.14.16:281][469]AssetCheck: New page: Asset Save: BP_AICharacter
+[2023.10.10-00.14.16:281][469]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MP2/BP_AICharacter.BP_AICharacter
+[2023.10.10-00.14.29:588][614]BlueprintLog: New page: Compile BP_AICharacter
+[2023.10.10-00.14.29:670][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.10.10-00.14.30:122][646]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.10-00.14.30:197][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MP2/BP_AICharacter" FILE="../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/BP_AICharacter.uasset" SILENT=true
+[2023.10.10-00.14.30:208][646]LogSavePackage: Moving output files for package: /Game/MP2/BP_AICharacter
+[2023.10.10-00.14.30:209][646]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Saved/BP_AICharacter0AB77F76470B4C031CA4518D4E091A06.tmp' to '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/BP_AICharacter.uasset'
+[2023.10.10-00.14.30:215][646]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 4.77 sec)
+[2023.10.10-00.14.30:222][646]AssetCheck: New page: Asset Save: BP_AICharacter
+[2023.10.10-00.14.30:222][646]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MP2/BP_AICharacter.BP_AICharacter
+[2023.10.10-00.14.30:687][684]LogSlate: Window 'BP_AICharacter' being destroyed
+[2023.10.10-00.14.30:696][684]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.14.30:696][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.14.32:253][834]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.10-00.14.32:259][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.10-00.14.32:260][834]PIE: New page: PIE session: MP2 (Oct 9, 2023, 2:14:32 PM)
+[2023.10.10-00.14.32:260][834]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.14.32:273][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013191s)
+[2023.10.10-00.14.32:273][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.013216s)
+[2023.10.10-00.14.32:273][834]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.14.32:273][834]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.14.32:273][834]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2023.10.10-00.14.32:298][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.10.10-00.14.32:321][834]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2023.10.10-00.14.32:321][834]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.10-00.14.32:321][834]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.10-00.14.32:321][834]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.10-00.14.32:321][834]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.10-00.14.32:321][834]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.10-00.14.32:321][834]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.10-00.14.32:321][834]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.10-00.14.32:321][834]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.10-00.14.32:321][834]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.10-00.14.32:321][834]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.10-00.14.32:321][834]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.10-00.14.32:323][834]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.10-00.14.32:339][834]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Life Q30)
+[2023.10.10-00.14.32:339][834]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.10-00.14.32:339][834]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.10-00.14.32:339][834]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.10-00.14.32:341][834]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2023.10.10-00.14.32:341][834]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2023.10.10-00.14.32:342][834]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2023.10.10-00.14.32:342][834]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2023.10.10-00.14.32:342][834]LogInit: FAudioDevice initialized.
+[2023.10.10-00.14.32:342][834]LogAudio: Display: Audio Device (ID: 33) registered with world 'MP2'.
+[2023.10.10-00.14.32:344][834]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.14.32:347][834]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.14.32
+[2023.10.10-00.14.34:000][834]LogWorld: Bringing up level for play took: 1.656035
+[2023.10.10-00.14.34:002][834]LogOnline: OSS: Created online subsystem instance for: :Context_99
+[2023.10.10-00.14.34:011][834]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.14.34:021][834]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.14.34:024][834]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.14.34:051][834]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.14.34:058][834]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.10-00.14.34:059][834]PIE: Server logged in
+[2023.10.10-00.14.34:060][834]PIE: Play in editor total start time 1.801 seconds.
+[2023.10.10-00.15.03:682][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.15.03:682][602]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.15.03:682][602]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.15.03:684][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.15.03:688][602]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.10-00.15.03:693][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.15.03:715][602]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-00.15.03:715][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.10.10-00.15.03:717][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.10.10-00.15.03:720][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.15.03:726][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.10.10-00.15.03:755][603]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2023.10.10-00.15.05:618][717]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MP2/BP_AICharacter.BP_AICharacter
+[2023.10.10-00.15.05:618][717]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.15.12:833][120]BlueprintLog: New page: Compile BP_AICharacter
+[2023.10.10-00.15.12:937][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.10.10-00.15.13:697][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.10-00.15.13:784][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MP2/BP_AICharacter" FILE="../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/BP_AICharacter.uasset" SILENT=true
+[2023.10.10-00.15.13:796][176]LogSavePackage: Moving output files for package: /Game/MP2/BP_AICharacter
+[2023.10.10-00.15.13:797][176]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Saved/BP_AICharacter0844404E4211D03319728B9FE1776D0A.tmp' to '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/BP_AICharacter.uasset'
+[2023.10.10-00.15.13:802][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 4.87 sec)
+[2023.10.10-00.15.13:810][176]AssetCheck: New page: Asset Save: BP_AICharacter
+[2023.10.10-00.15.13:810][176]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MP2/BP_AICharacter.BP_AICharacter
+[2023.10.10-00.15.14:567][242]LogSlate: Window 'BP_AICharacter' being destroyed
+[2023.10.10-00.15.14:608][242]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.15.14:608][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.15.15:683][332]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.10-00.15.15:690][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.10-00.15.15:690][332]PIE: New page: PIE session: MP2 (Oct 9, 2023, 2:15:15 PM)
+[2023.10.10-00.15.15:718][332]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.15.15:733][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014977s)
+[2023.10.10-00.15.15:733][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.015015s)
+[2023.10.10-00.15.15:733][332]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.15.15:734][332]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.15.15:734][332]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2023.10.10-00.15.15:761][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.10.10-00.15.15:788][332]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.10.10-00.15.15:788][332]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.10-00.15.15:788][332]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.10-00.15.15:788][332]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.10-00.15.15:788][332]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.10-00.15.15:788][332]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.10-00.15.15:788][332]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.10-00.15.15:788][332]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.10-00.15.15:788][332]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.10-00.15.15:788][332]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.10-00.15.15:788][332]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.10-00.15.15:788][332]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.10-00.15.15:790][332]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.10-00.15.15:809][332]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Life Q30)
+[2023.10.10-00.15.15:810][332]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.10-00.15.15:810][332]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.10-00.15.15:810][332]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.10-00.15.15:811][332]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2023.10.10-00.15.15:811][332]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2023.10.10-00.15.15:812][332]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2023.10.10-00.15.15:812][332]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2023.10.10-00.15.15:812][332]LogInit: FAudioDevice initialized.
+[2023.10.10-00.15.15:812][332]LogAudio: Display: Audio Device (ID: 34) registered with world 'MP2'.
+[2023.10.10-00.15.15:815][332]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.15.15:818][332]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.15.15
+[2023.10.10-00.15.17:545][332]LogWorld: Bringing up level for play took: 1.730018
+[2023.10.10-00.15.17:547][332]LogOnline: OSS: Created online subsystem instance for: :Context_101
+[2023.10.10-00.15.17:554][332]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.15.17:564][332]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.15.17:567][332]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.15.17:596][332]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.15.17:604][332]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.10-00.15.17:605][332]PIE: Server logged in
+[2023.10.10-00.15.17:605][332]PIE: Play in editor total start time 1.916 seconds.
+[2023.10.10-00.15.27:907][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.15.27:907][284]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.15.27:907][284]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.15.27:909][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.15.27:911][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.10-00.15.27:916][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.15.27:938][284]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-00.15.27:939][284]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.10.10-00.15.27:941][284]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.10.10-00.15.27:943][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.15.27:951][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.10.10-00.15.28:032][286]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2023.10.10-00.15.30:451][347]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.10-00.15.30:458][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.10-00.15.30:458][347]PIE: New page: PIE session: MP2 (Oct 9, 2023, 2:15:30 PM)
+[2023.10.10-00.15.30:459][347]LogPlayLevel: Creating play world package: /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.15.30:473][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014290s)
+[2023.10.10-00.15.30:473][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MP2/MP2.MP2 to /Game/MP2/UEDPIE_0_MP2.MP2 (0.014321s)
+[2023.10.10-00.15.30:473][347]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.15.30:473][347]LogAIModule: Creating AISystem for world MP2
+[2023.10.10-00.15.30:474][347]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2023.10.10-00.15.30:496][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.10.10-00.15.30:498][347]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2023.10.10-00.15.30:498][347]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.10-00.15.30:498][347]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.10-00.15.30:498][347]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.10-00.15.30:498][347]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.10-00.15.30:498][347]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.10-00.15.30:498][347]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.10-00.15.30:498][347]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.10-00.15.30:498][347]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.10-00.15.30:498][347]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.10-00.15.30:498][347]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.10-00.15.30:498][347]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.10-00.15.30:500][347]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.10-00.15.30:518][347]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Soundcore Life Q30)
+[2023.10.10-00.15.30:518][347]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.10-00.15.30:518][347]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.10-00.15.30:518][347]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.10-00.15.30:519][347]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2023.10.10-00.15.30:519][347]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2023.10.10-00.15.30:520][347]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2023.10.10-00.15.30:520][347]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2023.10.10-00.15.30:520][347]LogInit: FAudioDevice initialized.
+[2023.10.10-00.15.30:520][347]LogAudio: Display: Audio Device (ID: 35) registered with world 'MP2'.
+[2023.10.10-00.15.30:524][347]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.10.10-00.15.30:527][347]LogWorld: Bringing World /Game/MP2/UEDPIE_0_MP2.MP2 up for play (max tick rate 0) at 2023.10.09-19.15.30
+[2023.10.10-00.15.32:173][347]LogWorld: Bringing up level for play took: 1.648660
+[2023.10.10-00.15.32:175][347]LogOnline: OSS: Created online subsystem instance for: :Context_102
+[2023.10.10-00.15.32:183][347]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1720.000 Y=-10.000 Z=80.000] for [BP_AICharacter_C]
+[2023.10.10-00.15.32:192][347]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=11020.000 Y=5540.000 Z=560.000] for [BP_AICharacter_C]
+[2023.10.10-00.15.32:195][347]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8840.000 Y=7800.000 Z=990.000] for [BP_AICharacter_C]
+[2023.10.10-00.15.32:221][347]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-3160.000 Y=1510.000 Z=60.000] for [BP_AICharacter_C]
+[2023.10.10-00.15.32:228][347]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.10-00.15.32:229][347]PIE: Server logged in
+[2023.10.10-00.15.32:229][347]PIE: Play in editor total start time 1.772 seconds.
+[2023.10.10-00.15.32:239][348]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.080998 > MaxSimulationTimeStep (0.050) for 'BP_AICharacter_C_2', movement 'Walking'
+[2023.10.10-00.16.06:410][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.16.06:412][608]LogWorld: BeginTearingDown for /Game/MP2/UEDPIE_0_MP2
+[2023.10.10-00.16.06:412][608]LogWorld: UWorld::CleanupWorld for MP2, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-00.16.06:414][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.16.06:417][608]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.10-00.16.06:423][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-00.16.06:445][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.10-00.16.06:445][608]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.10.10-00.16.06:446][608]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.10.10-00.16.06:456][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.10.10-00.16.06:484][609]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2023.10.10-00.16.08:202][803]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.10-00.16.08:246][803]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.10.10-00.16.08:246][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen.ParticleSystemComponent0
+[2023.10.10-00.16.08:246][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft3.ParticleSystemComponent0
+[2023.10.10-00.16.08:246][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen2.ParticleSystemComponent0
+[2023.10.10-00.16.08:246][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft4.ParticleSystemComponent0
+[2023.10.10-00.16.08:246][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft5.ParticleSystemComponent0
+[2023.10.10-00.16.08:246][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft6.ParticleSystemComponent0
+[2023.10.10-00.16.08:246][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen3.ParticleSystemComponent0
+[2023.10.10-00.16.08:265][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MP2/MP2" FILE="../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/MP2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.10-00.16.08:286][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.10.10-00.16.08:324][803]LogSavePackage: Moving output files for package: /Game/MP2/MP2
+[2023.10.10-00.16.08:324][803]LogSavePackage: Moving '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Saved/MP20A03C39B4909E5D19062669F981CBB42.tmp' to '../../../../../../Users/Taylor/Desktop/CS415-LevelDesign/Content/MP2/MP2.umap'
+[2023.10.10-00.16.08:334][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen.ParticleSystemComponent0
+[2023.10.10-00.16.08:334][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft3.ParticleSystemComponent0
+[2023.10.10-00.16.08:334][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen2.ParticleSystemComponent0
+[2023.10.10-00.16.08:334][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft4.ParticleSystemComponent0
+[2023.10.10-00.16.08:334][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft5.ParticleSystemComponent0
+[2023.10.10-00.16.08:334][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/LightRay/vfx_lightray_card_01_P1_soft1_sea.vfx_lightray_card_01_P1_soft1_sea Component=/Game/MP2/MP2.MP2:PersistentLevel.vfx_lightray_card_01_P1_soft6.ParticleSystemComponent0
+[2023.10.10-00.16.08:335][803]LogParticles: Warning: InitializeSystem called on an unregistered component. Template=/Game/LearningKit_Games/Assets/VFX/Pollen/vfx_pollen_magic_camera_fade.vfx_pollen_magic_camera_fade Component=/Game/MP2/MP2.MP2:PersistentLevel.VFX_pollen3.ParticleSystemComponent0
+[2023.10.10-00.16.08:350][803]LogFileHelpers: Saving map 'MP2' took 0.105
+[2023.10.10-00.16.08:356][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 5.03 sec)
+[2023.10.10-00.16.08:364][803]AssetCheck: New page: Asset Save: MP2
+[2023.10.10-00.16.08:364][803]LogContentValidation: Display: Validating /Script/Engine.World /Game/MP2/MP2.MP2
+[2023.10.10-00.16.09:054][827]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/MP2/MP2.MP2:PersistentLevel.RecastNavMesh-Default).
